@@ -1,0 +1,31 @@
+package Strings;
+
+public class str {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		String t="Delhi";
+		String o="Mumbai";
+		String k="delhi";
+		String y=new String("Mumbai");
+		String l=new String("Delhi");
+		String p=new String("Hello");
+		if(t==l)
+		{
+			System.out.println("Yes");
+		}
+		else
+		{
+			System.out.println("No");
+		}
+		if(t.equals(l))
+		{
+			System.out.println("Yes");
+		}
+		else
+		{
+			System.out.println("No");
+		}
+	}
+
+}
